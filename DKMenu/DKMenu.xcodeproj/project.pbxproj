@@ -14,6 +14,11 @@
 		04FAD9E11DAB88000034492A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FAD9DF1DAB88000034492A /* LaunchScreen.storyboard */; };
 		04FAD9EC1DAB88000034492A /* DKMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAD9EB1DAB88000034492A /* DKMenuTests.swift */; };
 		04FAD9F71DAB88000034492A /* DKMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAD9F61DAB88000034492A /* DKMenuUITests.swift */; };
+		04FADA051DAB89160034492A /* MenuItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04FADA041DAB89160034492A /* MenuItems.plist */; };
+		04FADA071DAB8AF40034492A /* DKMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FADA061DAB8AF40034492A /* DKMenu.swift */; };
+		04FADA091DAB8B0C0034492A /* DKMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FADA081DAB8B0C0034492A /* DKMenu.storyboard */; };
+		04FADA0B1DAB94090034492A /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FADA0A1DAB94090034492A /* MenuBar.swift */; };
+		04FADA0D1DAB97440034492A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FADA0C1DAB97440034492A /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		04FAD9F21DAB88000034492A /* DKMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FAD9F61DAB88000034492A /* DKMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKMenuUITests.swift; sourceTree = "<group>"; };
 		04FAD9F81DAB88000034492A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FADA041DAB89160034492A /* MenuItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MenuItems.plist; sourceTree = "<group>"; };
+		04FADA061DAB8AF40034492A /* DKMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKMenu.swift; sourceTree = "<group>"; };
+		04FADA081DAB8B0C0034492A /* DKMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DKMenu.storyboard; sourceTree = "<group>"; };
+		04FADA0A1DAB94090034492A /* MenuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		04FADA0C1DAB97440034492A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,11 @@
 			children = (
 				04FAD9D61DAB88000034492A /* AppDelegate.swift */,
 				04FAD9D81DAB88000034492A /* ViewController.swift */,
+				04FADA0A1DAB94090034492A /* MenuBar.swift */,
+				04FADA061DAB8AF40034492A /* DKMenu.swift */,
+				04FADA0C1DAB97440034492A /* DetailViewController.swift */,
+				04FADA081DAB8B0C0034492A /* DKMenu.storyboard */,
+				04FADA041DAB89160034492A /* MenuItems.plist */,
 				04FAD9DA1DAB88000034492A /* Main.storyboard */,
 				04FAD9DD1DAB88000034492A /* Assets.xcassets */,
 				04FAD9DF1DAB88000034492A /* LaunchScreen.storyboard */,
@@ -233,7 +248,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FADA051DAB89160034492A /* MenuItems.plist in Resources */,
 				04FAD9E11DAB88000034492A /* LaunchScreen.storyboard in Resources */,
+				04FADA091DAB8B0C0034492A /* DKMenu.storyboard in Resources */,
 				04FAD9DE1DAB88000034492A /* Assets.xcassets in Resources */,
 				04FAD9DC1DAB88000034492A /* Main.storyboard in Resources */,
 			);
@@ -262,6 +279,9 @@
 			files = (
 				04FAD9D91DAB88000034492A /* ViewController.swift in Sources */,
 				04FAD9D71DAB88000034492A /* AppDelegate.swift in Sources */,
+				04FADA0D1DAB97440034492A /* DetailViewController.swift in Sources */,
+				04FADA0B1DAB94090034492A /* MenuBar.swift in Sources */,
+				04FADA071DAB8AF40034492A /* DKMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
